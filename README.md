@@ -61,4 +61,5 @@ yarn encore dev --watch
 
 ```
 Install doctrine: composer require orm
+Install database docker container: php bin/console make:docker:database
 ```
