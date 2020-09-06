@@ -58,3 +58,7 @@ yarn encore dev --watch
 ```
 
 # Commands
+
+```
+Install doctrine: composer require orm
+```
