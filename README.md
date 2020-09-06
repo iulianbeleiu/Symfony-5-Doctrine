@@ -62,4 +62,10 @@ yarn encore dev --watch
 ```
 Install doctrine: composer require orm
 Install database docker container: php bin/console make:docker:database
+List containers to see the ports: docker-compose ps
+Connecting to MySQL Docker container: docker-compose exec database mysql -u root --password=password
+Stopping the container: docker-compose down
+Starting the container: docker-compose up -d
+See what env variables symfony binary is exporting to our app: symfony var:export --multiline
+
 ```
