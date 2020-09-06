@@ -67,5 +67,5 @@ Connecting to MySQL Docker container: docker-compose exec database mysql -u root
 Stopping the container: docker-compose down
 Starting the container: docker-compose up -d
 See what env variables symfony binary is exporting to our app: symfony var:export --multiline
-
+Create database: symfony console doctrine:database:create
 ```
